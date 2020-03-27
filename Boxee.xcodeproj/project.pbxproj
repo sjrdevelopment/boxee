@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4A5C201242E16D5004FABDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5C200242E16D5004FABDD /* AppDelegate.swift */; };
+		E4A5C203242E16D5004FABDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5C202242E16D5004FABDD /* SceneDelegate.swift */; };
+		E4A5C205242E16D5004FABDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5C204242E16D5004FABDD /* ViewController.swift */; };
+		E4A5C208242E16D5004FABDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A5C206242E16D5004FABDD /* Main.storyboard */; };
+		E4A5C20B242E16D5004FABDD /* Boxee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4A5C209242E16D5004FABDD /* Boxee.xcdatamodeld */; };
+		E4A5C20D242E16DC004FABDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A5C20C242E16DC004FABDD /* Assets.xcassets */; };
+		E4A5C210242E16DC004FABDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A5C20E242E16DC004FABDD /* LaunchScreen.storyboard */; };
+		E4A5C21B242E16DC004FABDD /* BoxeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5C21A242E16DC004FABDD /* BoxeeTests.swift */; };
+		E4A5C226242E16DD004FABDD /* BoxeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5C225242E16DD004FABDD /* BoxeeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4A5C217242E16DC004FABDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4A5C1F5242E16D5004FABDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4A5C1FC242E16D5004FABDD;
+			remoteInfo = Boxee;
+		};
+		E4A5C222242E16DD004FABDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4A5C1F5242E16D5004FABDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4A5C1FC242E16D5004FABDD;
+			remoteInfo = Boxee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4A5C1FD242E16D5004FABDD /* Boxee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boxee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A5C200242E16D5004FABDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4A5C202242E16D5004FABDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4A5C204242E16D5004FABDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4A5C207242E16D5004FABDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4A5C20A242E16D5004FABDD /* Boxee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Boxee.xcdatamodel; sourceTree = "<group>"; };
+		E4A5C20C242E16DC004FABDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4A5C20F242E16DC004FABDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4A5C211242E16DC004FABDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A5C216242E16DC004FABDD /* BoxeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A5C21A242E16DC004FABDD /* BoxeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxeeTests.swift; sourceTree = "<group>"; };
+		E4A5C21C242E16DC004FABDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A5C221242E16DD004FABDD /* BoxeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A5C225242E16DD004FABDD /* BoxeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxeeUITests.swift; sourceTree = "<group>"; };
+		E4A5C227242E16DD004FABDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4A5C1FA242E16D5004FABDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A5C213242E16DC004FABDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A5C21E242E16DD004FABDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4A5C1F4242E16D5004FABDD = {
+			isa = PBXGroup;
+			children = (
+				E4A5C1FF242E16D5004FABDD /* Boxee */,
+				E4A5C219242E16DC004FABDD /* BoxeeTests */,
+				E4A5C224242E16DD004FABDD /* BoxeeUITests */,
+				E4A5C1FE242E16D5004FABDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4A5C1FE242E16D5004FABDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5C1FD242E16D5004FABDD /* Boxee.app */,
+				E4A5C216242E16DC004FABDD /* BoxeeTests.xctest */,
+				E4A5C221242E16DD004FABDD /* BoxeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4A5C1FF242E16D5004FABDD /* Boxee */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5C200242E16D5004FABDD /* AppDelegate.swift */,
+				E4A5C202242E16D5004FABDD /* SceneDelegate.swift */,
+				E4A5C204242E16D5004FABDD /* ViewController.swift */,
+				E4A5C206242E16D5004FABDD /* Main.storyboard */,
+				E4A5C20C242E16DC004FABDD /* Assets.xcassets */,
+				E4A5C20E242E16DC004FABDD /* LaunchScreen.storyboard */,
+				E4A5C211242E16DC004FABDD /* Info.plist */,
+				E4A5C209242E16D5004FABDD /* Boxee.xcdatamodeld */,
+			);
+			path = Boxee;
+			sourceTree = "<group>";
+		};
+		E4A5C219242E16DC004FABDD /* BoxeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5C21A242E16DC004FABDD /* BoxeeTests.swift */,
+				E4A5C21C242E16DC004FABDD /* Info.plist */,
+			);
+			path = BoxeeTests;
+			sourceTree = "<group>";
+		};
+		E4A5C224242E16DD004FABDD /* BoxeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5C225242E16DD004FABDD /* BoxeeUITests.swift */,
+				E4A5C227242E16DD004FABDD /* Info.plist */,
+			);
+			path = BoxeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4A5C1FC242E16D5004FABDD /* Boxee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A5C22A242E16DD004FABDD /* Build configuration list for PBXNativeTarget "Boxee" */;
+			buildPhases = (
+				E4A5C1F9242E16D5004FABDD /* Sources */,
+				E4A5C1FA242E16D5004FABDD /* Frameworks */,
+				E4A5C1FB242E16D5004FABDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boxee;
+			productName = Boxee;
+			productReference = E4A5C1FD242E16D5004FABDD /* Boxee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4A5C215242E16DC004FABDD /* BoxeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A5C22D242E16DD004FABDD /* Build configuration list for PBXNativeTarget "BoxeeTests" */;
+			buildPhases = (
+				E4A5C212242E16DC004FABDD /* Sources */,
+				E4A5C213242E16DC004FABDD /* Frameworks */,
+				E4A5C214242E16DC004FABDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4A5C218242E16DC004FABDD /* PBXTargetDependency */,
+			);
+			name = BoxeeTests;
+			productName = BoxeeTests;
+			productReference = E4A5C216242E16DC004FABDD /* BoxeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4A5C220242E16DD004FABDD /* BoxeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A5C230242E16DD004FABDD /* Build configuration list for PBXNativeTarget "BoxeeUITests" */;
+			buildPhases = (
+				E4A5C21D242E16DD004FABDD /* Sources */,
+				E4A5C21E242E16DD004FABDD /* Frameworks */,
+				E4A5C21F242E16DD004FABDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4A5C223242E16DD004FABDD /* PBXTargetDependency */,
+			);
+			name = BoxeeUITests;
+			productName = BoxeeUITests;
+			productReference = E4A5C221242E16DD004FABDD /* BoxeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4A5C1F5242E16D5004FABDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Stuart Robinson";
+				TargetAttributes = {
+					E4A5C1FC242E16D5004FABDD = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E4A5C215242E16DC004FABDD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E4A5C1FC242E16D5004FABDD;
+					};
+					E4A5C220242E16DD004FABDD = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E4A5C1FC242E16D5004FABDD;
+					};
+				};
+			};
+			buildConfigurationList = E4A5C1F8242E16D5004FABDD /* Build configuration list for PBXProject "Boxee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4A5C1F4242E16D5004FABDD;
+			productRefGroup = E4A5C1FE242E16D5004FABDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4A5C1FC242E16D5004FABDD /* Boxee */,
+				E4A5C215242E16DC004FABDD /* BoxeeTests */,
+				E4A5C220242E16DD004FABDD /* BoxeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4A5C1FB242E16D5004FABDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A5C210242E16DC004FABDD /* LaunchScreen.storyboard in Resources */,
+				E4A5C20D242E16DC004FABDD /* Assets.xcassets in Resources */,
+				E4A5C208242E16D5004FABDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A5C214242E16DC004FABDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A5C21F242E16DD004FABDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4A5C1F9242E16D5004FABDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A5C205242E16D5004FABDD /* ViewController.swift in Sources */,
+				E4A5C20B242E16D5004FABDD /* Boxee.xcdatamodeld in Sources */,
+				E4A5C201242E16D5004FABDD /* AppDelegate.swift in Sources */,
+				E4A5C203242E16D5004FABDD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A5C212242E16DC004FABDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A5C21B242E16DC004FABDD /* BoxeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A5C21D242E16DD004FABDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A5C226242E16DD004FABDD /* BoxeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4A5C218242E16DC004FABDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4A5C1FC242E16D5004FABDD /* Boxee */;
+			targetProxy = E4A5C217242E16DC004FABDD /* PBXContainerItemProxy */;
+		};
+		E4A5C223242E16DD004FABDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4A5C1FC242E16D5004FABDD /* Boxee */;
+			targetProxy = E4A5C222242E16DD004FABDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4A5C206242E16D5004FABDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4A5C207242E16D5004FABDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4A5C20E242E16DC004FABDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4A5C20F242E16DC004FABDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4A5C228242E16DD004FABDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4A5C229242E16DD004FABDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4A5C22B242E16DD004FABDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A688EQE626;
+				INFOPLIST_FILE = Boxee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SJR.Boxee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4A5C22C242E16DD004FABDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A688EQE626;
+				INFOPLIST_FILE = Boxee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SJR.Boxee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4A5C22E242E16DD004FABDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A688EQE626;
+				INFOPLIST_FILE = BoxeeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SJR.BoxeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxee.app/Boxee";
+			};
+			name = Debug;
+		};
+		E4A5C22F242E16DD004FABDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A688EQE626;
+				INFOPLIST_FILE = BoxeeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SJR.BoxeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxee.app/Boxee";
+			};
+			name = Release;
+		};
+		E4A5C231242E16DD004FABDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A688EQE626;
+				INFOPLIST_FILE = BoxeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SJR.BoxeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Boxee;
+			};
+			name = Debug;
+		};
+		E4A5C232242E16DD004FABDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A688EQE626;
+				INFOPLIST_FILE = BoxeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SJR.BoxeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Boxee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4A5C1F8242E16D5004FABDD /* Build configuration list for PBXProject "Boxee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A5C228242E16DD004FABDD /* Debug */,
+				E4A5C229242E16DD004FABDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A5C22A242E16DD004FABDD /* Build configuration list for PBXNativeTarget "Boxee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A5C22B242E16DD004FABDD /* Debug */,
+				E4A5C22C242E16DD004FABDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A5C22D242E16DD004FABDD /* Build configuration list for PBXNativeTarget "BoxeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A5C22E242E16DD004FABDD /* Debug */,
+				E4A5C22F242E16DD004FABDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A5C230242E16DD004FABDD /* Build configuration list for PBXNativeTarget "BoxeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A5C231242E16DD004FABDD /* Debug */,
+				E4A5C232242E16DD004FABDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4A5C209242E16D5004FABDD /* Boxee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4A5C20A242E16D5004FABDD /* Boxee.xcdatamodel */,
+			);
+			currentVersion = E4A5C20A242E16D5004FABDD /* Boxee.xcdatamodel */;
+			path = Boxee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4A5C1F5242E16D5004FABDD /* Project object */;
+}

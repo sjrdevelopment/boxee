@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1111A7EFF444B8F4FB49EC46 /* Pods_Boxee_BoxeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3B83EE8A52B10DA2D602FE /* Pods_Boxee_BoxeeUITests.framework */; };
+		235D79905562D54CBCB87016 /* Pods_Boxee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32943D9030B9D03626790BC9 /* Pods_Boxee.framework */; };
+		5BB7A6782DBD4C890CA11B88 /* Pods_BoxeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5E6E705280854399A0DA64 /* Pods_BoxeeTests.framework */; };
 		E4A5C201242E16D5004FABDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5C200242E16D5004FABDD /* AppDelegate.swift */; };
 		E4A5C203242E16D5004FABDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5C202242E16D5004FABDD /* SceneDelegate.swift */; };
 		E4A5C205242E16D5004FABDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5C204242E16D5004FABDD /* ViewController.swift */; };
@@ -36,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5F69C48C6B51885117C1C6 /* Pods-BoxeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxeeTests.release.xcconfig"; path = "Target Support Files/Pods-BoxeeTests/Pods-BoxeeTests.release.xcconfig"; sourceTree = "<group>"; };
+		32943D9030B9D03626790BC9 /* Pods_Boxee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boxee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EA494F31DA84BF92986DF6 /* Pods-Boxee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boxee.release.xcconfig"; path = "Target Support Files/Pods-Boxee/Pods-Boxee.release.xcconfig"; sourceTree = "<group>"; };
+		8D3B83EE8A52B10DA2D602FE /* Pods_Boxee_BoxeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boxee_BoxeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E75A856BC4C8BC0A0A166A3 /* Pods-Boxee-BoxeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boxee-BoxeeUITests.release.xcconfig"; path = "Target Support Files/Pods-Boxee-BoxeeUITests/Pods-Boxee-BoxeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E492BD6F6006A49B1BA9FA7 /* Pods-Boxee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boxee.debug.xcconfig"; path = "Target Support Files/Pods-Boxee/Pods-Boxee.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A09F2CAEDD484B1584B003 /* Pods-BoxeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoxeeTests.debug.xcconfig"; path = "Target Support Files/Pods-BoxeeTests/Pods-BoxeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7A075DAEB046154CD962F63 /* Pods-Boxee-BoxeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boxee-BoxeeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Boxee-BoxeeUITests/Pods-Boxee-BoxeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE5E6E705280854399A0DA64 /* Pods_BoxeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E407DB96242E575000C3194F /* Boxee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Boxee.entitlements; sourceTree = "<group>"; };
 		E4A5C1FD242E16D5004FABDD /* Boxee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boxee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A5C200242E16D5004FABDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A5C202242E16D5004FABDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235D79905562D54CBCB87016 /* Pods_Boxee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB7A6782DBD4C890CA11B88 /* Pods_BoxeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +87,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1111A7EFF444B8F4FB49EC46 /* Pods_Boxee_BoxeeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8525C4858CDC7D1DA4EF7EF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32943D9030B9D03626790BC9 /* Pods_Boxee.framework */,
+				8D3B83EE8A52B10DA2D602FE /* Pods_Boxee_BoxeeUITests.framework */,
+				CE5E6E705280854399A0DA64 /* Pods_BoxeeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E419C32EB3A61684D17549CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E492BD6F6006A49B1BA9FA7 /* Pods-Boxee.debug.xcconfig */,
+				32EA494F31DA84BF92986DF6 /* Pods-Boxee.release.xcconfig */,
+				A7A075DAEB046154CD962F63 /* Pods-Boxee-BoxeeUITests.debug.xcconfig */,
+				8E75A856BC4C8BC0A0A166A3 /* Pods-Boxee-BoxeeUITests.release.xcconfig */,
+				A5A09F2CAEDD484B1584B003 /* Pods-BoxeeTests.debug.xcconfig */,
+				1B5F69C48C6B51885117C1C6 /* Pods-BoxeeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E4A5C1F4242E16D5004FABDD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				E4A5C219242E16DC004FABDD /* BoxeeTests */,
 				E4A5C224242E16DD004FABDD /* BoxeeUITests */,
 				E4A5C1FE242E16D5004FABDD /* Products */,
+				E419C32EB3A61684D17549CF /* Pods */,
+				8525C4858CDC7D1DA4EF7EF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,7 @@
 		E4A5C1FF242E16D5004FABDD /* Boxee */ = {
 			isa = PBXGroup;
 			children = (
+				E407DB96242E575000C3194F /* Boxee.entitlements */,
 				E4A5C200242E16D5004FABDD /* AppDelegate.swift */,
 				E4A5C202242E16D5004FABDD /* SceneDelegate.swift */,
 				E4A5C204242E16D5004FABDD /* ViewController.swift */,
@@ -138,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4A5C22A242E16DD004FABDD /* Build configuration list for PBXNativeTarget "Boxee" */;
 			buildPhases = (
+				6E9064B7EAE4F1253E2B762A /* [CP] Check Pods Manifest.lock */,
 				E4A5C1F9242E16D5004FABDD /* Sources */,
 				E4A5C1FA242E16D5004FABDD /* Frameworks */,
 				E4A5C1FB242E16D5004FABDD /* Resources */,
+				54DE9654161A2DA618ECBBAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4A5C22D242E16DD004FABDD /* Build configuration list for PBXNativeTarget "BoxeeTests" */;
 			buildPhases = (
+				682657557E590817983135B6 /* [CP] Check Pods Manifest.lock */,
 				E4A5C212242E16DC004FABDD /* Sources */,
 				E4A5C213242E16DC004FABDD /* Frameworks */,
 				E4A5C214242E16DC004FABDD /* Resources */,
@@ -173,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4A5C230242E16DD004FABDD /* Build configuration list for PBXNativeTarget "BoxeeUITests" */;
 			buildPhases = (
+				36261F64832A5E66C46A7DEB /* [CP] Check Pods Manifest.lock */,
 				E4A5C21D242E16DD004FABDD /* Sources */,
 				E4A5C21E242E16DD004FABDD /* Frameworks */,
 				E4A5C21F242E16DD004FABDD /* Resources */,
+				00DF665A42364FB6216CB4A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +304,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DF665A42364FB6216CB4A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Boxee-BoxeeUITests/Pods-Boxee-BoxeeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Boxee-BoxeeUITests/Pods-Boxee-BoxeeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Boxee-BoxeeUITests/Pods-Boxee-BoxeeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36261F64832A5E66C46A7DEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Boxee-BoxeeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54DE9654161A2DA618ECBBAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Boxee/Pods-Boxee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Boxee/Pods-Boxee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Boxee/Pods-Boxee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		682657557E590817983135B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoxeeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E9064B7EAE4F1253E2B762A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Boxee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4A5C1F9242E16D5004FABDD /* Sources */ = {
@@ -436,8 +587,10 @@
 		};
 		E4A5C22B242E16DD004FABDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E492BD6F6006A49B1BA9FA7 /* Pods-Boxee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Boxee/Boxee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A688EQE626;
 				INFOPLIST_FILE = Boxee/Info.plist;
@@ -454,8 +607,10 @@
 		};
 		E4A5C22C242E16DD004FABDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EA494F31DA84BF92986DF6 /* Pods-Boxee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Boxee/Boxee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A688EQE626;
 				INFOPLIST_FILE = Boxee/Info.plist;
@@ -472,6 +627,7 @@
 		};
 		E4A5C22E242E16DD004FABDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A09F2CAEDD484B1584B003 /* Pods-BoxeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +650,7 @@
 		};
 		E4A5C22F242E16DD004FABDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5F69C48C6B51885117C1C6 /* Pods-BoxeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +673,7 @@
 		};
 		E4A5C231242E16DD004FABDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A075DAEB046154CD962F63 /* Pods-Boxee-BoxeeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +694,7 @@
 		};
 		E4A5C232242E16DD004FABDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E75A856BC4C8BC0A0A166A3 /* Pods-Boxee-BoxeeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
